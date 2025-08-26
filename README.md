@@ -5,7 +5,7 @@ The system uses [Sentence Transformers](https://www.sbert.net/) to embed movie p
 
 ## Example Search Result
 
-![Search Result](img/res.png)
+![Search Result](res.png)
 
 ## Setup
 Clone the repository and install dependencies:
@@ -36,6 +36,7 @@ from movie_search import search_movies
 results = search_movies("spy thriller in Paris", top_n=5)
 print(results)
 ```
+
 
 
 
